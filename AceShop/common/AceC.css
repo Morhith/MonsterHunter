@@ -1,0 +1,38 @@
+/* 定义宽度 */
+.w2 {width: 350upx;}
+.w3 { width: 225upx;}
+.w4 {width: 162upx;}
+/* 定义高度 */
+.H3 {height: 30vh; }
+ /* 边距离定义 */
+ .IconM1 { margin: 11upx;}
+ .MLR1 { margin: 0 11upx;}
+ .IconMB1 { margin-bottom: 22upx;}
+ .PD1 { padding: 22upx 11upx;}
+ /* 垂直居中 */
+ .H_center {flex: 1 1 0%; justify-content: center; align-items: center;}
+ .M_cneter { align-self: center; }
+ /* 换行 */
+ .flex_wrap { flex-wrap: wrap; }
+ .Align_column { flex-direction: column; }
+ /* 两端对齐 */
+ .Align_ends{justify-content: space-between;}
+ /* 横向居右 */
+ .Align_right { justify-content: flex-end;}
+ /* 横向居中 */
+ .Align_center { justify-content:center; }
+ /* 文本居中 */
+ .ace-textC { text-align: center;}
+ .ace-textR { text-align: right;}
+ 
+ /* 字体颜色 */
+ .Col69 { color:#696969 }
+ .Col51 { color:#51a3fc }
+/* #ifndef H5 */
+	text { font-size: 28upx ; }
+/* #endif */
+ /* 定义元素块属性 */
+ .D_Iblock { display: inline-block; }
+ .D_block { display: block;}
+ /* 测试 */
+ .testH { height:20vh; margin:2px 2px;}

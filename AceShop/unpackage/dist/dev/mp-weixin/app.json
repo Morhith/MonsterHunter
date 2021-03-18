@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "pageOrientation": "portrait",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6"
+  },
+  "permission": {},
+  "usingComponents": {
+    "tab-bar": "/components/tarbar/tarbar",
+    "bottominfo": "/pages/component/bottominfo/bottominfo",
+    "tab1": "/pages/component/index/index",
+    "tab2": "/pages/component/order/index",
+    "tab3": "/pages/component/preson/live",
+    "tab4": "/pages/component/preson/presoninfo"
+  }
+}
