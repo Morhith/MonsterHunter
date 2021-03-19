@@ -23,10 +23,9 @@
 	        data() {
 	            return {
 	                BTabbar:[
-	                	{name:'首页',url:'tab1',Imgsrc:'/static/api.png',ImgsrcA:'/static/apiHL.png',purl:'pages/component/index/index'},
-	                	{name:'订单',url:'tab2',Imgsrc:'/static/component.png',ImgsrcA:'/static/componentHL.png',purl:'pages/component/index/index'},
-	                	{name:'生活圈',url:'tab3',Imgsrc:'/static/extui.png',ImgsrcA:'/static/extuiHL.png',purl:'pages/component/index/index'},
-	                	{name:'我的',url:'tab4',Imgsrc:'/static/template.png',ImgsrcA:'/static/templateHL.png',purl:'pages/component/index/index'}],
+	                	{name:'收藏',url:'tab2',Imgsrc:'/static/component.png',ImgsrcA:'/static/componentHL.png',purl:'pages/component/index/index'},
+	                	{name:'立即购买',url:'tab4',Imgsrc:'/static/template.png',ImgsrcA:'/static/templateHL.png',purl:'pages/component/index/index'},
+	                	{name:'加入购物车',url:'tab3',Imgsrc:'/static/extui.png',ImgsrcA:'/static/extuiHL.png',purl:'pages/component/index/index'}],
 	                currentTab: this.current,
 	            }
 	        },

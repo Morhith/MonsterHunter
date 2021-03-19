@@ -73,6 +73,20 @@
         "router" : {
             "base" : "/",
             "mode" : "history"
-        }
+        },
+		 "devServer": {  
+			"port": 8000,  
+			"disableHostCheck": true,  
+			"proxy": {  
+				"/mhweb": {  
+					"target": "http://127.0.0.1:8088",  
+					"changeOrigin": true,  
+					"ws": true,  
+					"pathRewrite": {  
+						"^/mhweb": ""  
+					}  
+				}  
+			}  
+		}  
     }
 }

@@ -3,6 +3,7 @@ import App from './App'
 // import router from './router'
 
 import tabBar from './components/tarbar/tarbar.vue'
+import tabBarshop from './components/tarbar/tarbarshop.vue'
 import bottominfo from './pages/component/bottominfo/bottominfo.vue'
 import tab1 from './pages/component/index/index.vue'
 import tab3 from './pages/component/preson/live.vue'
@@ -11,6 +12,7 @@ import tab4 from './pages/component/preson/presoninfo.vue'
 Vue.config.productionTip = false
 
 Vue.component('tab-bar', tabBar)
+Vue.component('tabbarshop', tabBarshop)
 Vue.component('bottominfo', bottominfo)
 Vue.component('tab1', tab1)
 Vue.component('tab2', tab2)
