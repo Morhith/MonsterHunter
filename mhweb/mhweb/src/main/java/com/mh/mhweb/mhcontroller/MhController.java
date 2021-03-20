@@ -1,19 +1,19 @@
 /*
  * @Author: Hitysept
- * @Date: 2021-03-19 19:06:39
+ * @Date: 2021-03-20 00:49:06
  * @LastEditors: Hitysept
- * @LastEditTime: 2021-03-20 22:26:56
+ * @LastEditTime: 2021-03-20 22:37:02
  * @Description: file content
- * @FilePath: \mhweb\src\main\java\com\mh\mhweb\common\mhJsonOP.java
+ * @FilePath: \mhweb\src\main\java\com\mh\mhweb\mhcontroller\MhController.java
  */
-package com.mh.mhweb.common;
+package com.mh.mhweb.mhcontroller;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class mhJsonOP {
+public class MhController {
     /**
-     * @description: 通过request来获取到json数据
+     * @description: 
      * @param {*}
      * @return {*}
      */

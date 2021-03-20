@@ -2,7 +2,7 @@
  * @Author: Hitysept
  * @Date: 2021-03-19 22:27:07
  * @LastEditors: Hitysept
- * @LastEditTime: 2021-03-19 23:55:24
+ * @LastEditTime: 2021-03-20 10:23:24
  * @Description: file content
  * @FilePath: \mhweb\src\main\java\com\mh\mhweb\mhconfig\MhConfiguration.java
  */
@@ -20,12 +20,11 @@ public class MhConfiguration implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
 
-        registry.addMapping("/**")
+        registry.addMapping("/api/**")
             .allowedOrigins("http://localhost:8080")
-            .allowedMethods("PUT", "DELETE","POST","GET")
-            .allowedHeaders("http://localhost:8088", "header2", "header3")
-            .exposedHeaders("header1", "header2")
-            .allowCredentials(true).maxAge(3600);
+            .allowedHeaders("*")
+            .allowedMethods("*")
+            .maxAge(3600);
     }
 }
 
