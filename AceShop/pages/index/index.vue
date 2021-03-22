@@ -21,7 +21,7 @@
 				header: {
 					'Content-Type': 'application/x-www-form-urlencoded'  
 				}, 
-				url: "http://127.0.0.1:8088/test/testpost", //仅为示例，并非真实接口地址。
+				url: "http://127.0.0.1:8088/api/all", //仅为示例，并非真实接口地址。
 				method: 'POST',
 					data: {
 						name: "hitysept",
