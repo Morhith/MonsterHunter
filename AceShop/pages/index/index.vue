@@ -19,13 +19,14 @@
 		onLoad:function (option) {
 			uni.request({
 				header: {
-					'Content-Type': 'application/x-www-form-urlencoded'  
+					'Content-Type': 'application/x-www-form-urlencoded',
 				}, 
-				url: "http://127.0.0.1:8088/test/testpost", //仅为示例，并非真实接口地址。
+				url: "http://localhost:8088/api/test/testpost", //仅为示例，并非真实接口地址。
 				method: 'POST',
 					data: {
 						name: "hitysept",
-						age: 20
+						age: 20,
+						param:"rrrr"
 					},
 				dataType:'json',
 				success: (res) => {
