@@ -1,6 +1,6 @@
 ## 配置启动端口号
 server:
-  port: 8080
+  port: 8081
 ## 配置Mysql的基本信息
 spring:
   datasource:
@@ -9,12 +9,11 @@ spring:
     username: root
     password: root
 ## jpa相关配置
-  jpa:
-    show-sql: true
+  jpa:  
     ## 在处理请求时，将 EntityManager绑定到整个处理流程中
     open-in-view: true
     ## 当配置的值是 true的时候，允许在没有 transaction的情况下支持懒加载。
     properties:
       hibernate:
-        enable_lazy_load_no_trans: true
         ddl-auto: update
+    show-sql: true
